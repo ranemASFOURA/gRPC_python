@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-package calculator;
+package org.example;
+option java_multiple_files = true;
 
 // Define the request message with two numbers
 message CalculationRequest {
